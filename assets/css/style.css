@@ -1,3 +1,31 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.cabecalho {
+    background-color: #3f2e8b;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
+    border-bottom: 1px solid black;
+}
+
+.cabecalho__imagem-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid black;
+}
+
+.cabecalho__nome-usuario {
+    color: white;
+}
+
+.cabecalho__link-logoff {
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
